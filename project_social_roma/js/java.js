@@ -1,5 +1,6 @@
 "use strict";
 function rule1(){
+	document.getElementById("rules9").style.display = "none";
 	document.getElementById("rules8").style.display = "none";
 	document.getElementById("rules7").style.display = "none";
 	document.getElementById("rules6").style.display = "none";
@@ -10,6 +11,7 @@ function rule1(){
 	document.getElementById("rules3").style.display = "none";
 }
 function rule2(){
+	document.getElementById("rules9").style.display = "none";
 	document.getElementById("rules8").style.display = "none";
 	document.getElementById("rules7").style.display = "none";
 	document.getElementById("rules6").style.display = "none";
@@ -20,6 +22,7 @@ function rule2(){
 	document.getElementById("rules3").style.display = "none";
 }
 function rule3(){
+	document.getElementById("rules9").style.display = "none";
 	document.getElementById("rules8").style.display = "none";
 	document.getElementById("rules7").style.display = "none";
 	document.getElementById("rules6").style.display = "none";
@@ -30,6 +33,7 @@ function rule3(){
 	document.getElementById("rules1").style.display = "none";
 }
 function rule4(){
+	document.getElementById("rules9").style.display = "none";
 	document.getElementById("rules8").style.display = "none";
 	document.getElementById("rules7").style.display = "none";
 	document.getElementById("rules6").style.display = "none";
@@ -40,6 +44,7 @@ function rule4(){
 	document.getElementById("rules1").style.display = "none";
 }
 function rule5(){
+	document.getElementById("rules9").style.display = "none";
 	document.getElementById("rules8").style.display = "none";
 	document.getElementById("rules7").style.display = "none";
 	document.getElementById("rules6").style.display = "none";
@@ -50,6 +55,7 @@ function rule5(){
 	document.getElementById("rules1").style.display = "none";
 }
 function rule6(){
+	document.getElementById("rules9").style.display = "none";
 	document.getElementById("rules8").style.display = "none";
 	document.getElementById("rules7").style.display = "none";
 	document.getElementById("rules6").style.display = "block";
@@ -60,6 +66,7 @@ function rule6(){
 	document.getElementById("rules1").style.display = "none";
 }
 function rule7(){
+	document.getElementById("rules9").style.display = "none";
 	document.getElementById("rules8").style.display = "none";
 	document.getElementById("rules7").style.display = "block";
 	document.getElementById("rules6").style.display = "none";
@@ -70,7 +77,19 @@ function rule7(){
 	document.getElementById("rules1").style.display = "none";
 }
 function rule8(){
+	document.getElementById("rules9").style.display = "none";
 	document.getElementById("rules8").style.display = "block";
+	document.getElementById("rules7").style.display = "none";
+	document.getElementById("rules6").style.display = "none";
+	document.getElementById("rules5").style.display = "none";
+	document.getElementById("rules4").style.display = "none";
+	document.getElementById("rules3").style.display = "none";
+	document.getElementById("rules2").style.display = "none";
+	document.getElementById("rules1").style.display = "none";
+}
+function rule9(){
+	document.getElementById("rules9").style.display = "block";
+	document.getElementById("rules8").style.display = "none";
 	document.getElementById("rules7").style.display = "none";
 	document.getElementById("rules6").style.display = "none";
 	document.getElementById("rules5").style.display = "none";
