@@ -1,53 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*BLOCKS*/
 .container{
+	display: flex;
+	flex-direction: column;
 	margin: 0 auto;
-	width: 960px;
-	border: 2px solid black;
+	width: 100%;
+	height: 2000px;
+}
+.blocksTop{
+		background: url(http://lenagold.ru/fon/der/dos/doska35.jpg);
+}
+.header{
+	padding: 5%;
+	width: 100%;
+	text-align: center;
+}
+.name{
+	margin-top: 13%;
+	text-align: center;
+	width: 100%;
+}
+.aboutMe{
+	width: 100%;
+}
+.blocksAboutMe{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.blockAboutMe{
+	padding: 2%;
+	width: 30%;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
-.headlines{
-	display: flex;
-	flex-direction: column;
+.professionalSkills{
+	width: 100%;
+	text-align: center;
 }
-.img_topBlock{
+.skills{
+	width: 500px;
+	height: 400px;
+}
+/*TEXT*/
+.headline2{
+	text-align: center;
+	margin-top: 5%;
+	font-size: 30px;
+}
+/*IMG*/
+.sizeIcon{
 	width: 100px;
 	height: 100px;
-	border-radius: 50%;
-	float: left;
-	margin-right: 10%;
-}
-.topBlock{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	width: 100%;
-	border: 2px solid black;
-}
-.midBlock{
-	width: 100%;	
-	border: 2px solid black;
-}
-.paragraph_midBlock{
-	font-size: 30px;
-	text-align: center;
-	height: 40px;
-}
-.bottomBlock{
-	width: 100%;
-	border: 2px solid black;
-	display: flex;
-	justify-content: center;
-}
-.button_bottomBlock{
-	width: 50%;
-	height: 20%;
-}
-.button{
-	display: inline-block; 
-    background: #8C959D; 
-    color: #fff; 
-    padding: 1rem 1.5rem; 
-    text-decoration: none; 
-    border-radius: 3px; 
+	margin-left: 40%;
+	margin-bottom: 5%;
 }

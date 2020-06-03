@@ -4,22 +4,59 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="project_social_roma/css/animation.css">
+	<script defer src="https://www.google.com/jsapi"></script>
+	<script defer src="project_social_roma/js/wow.min.js"></script>
+	<script defer src="skills.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </head>
 <body>
 	<div class="container">
-		<div class="topBlock">
-			<img class="img_topBlock" src="avatar.PNG" alt="img">
-			<div class="headlines">
-				<h1>Начинающий веб-разработчик</h1>
-				<h2>Вирт Роман</h2>
+		<div class="blocksTop">
+			<header class="header">
+				<h1>САЙТ-ПОРТФОЛИО</h1>
+			</header>
+			<div class="name">
+				<h2 style="margin-bottom: 5%;">ВИРТ РОМАН</h2>
+				<p style="margin-bottom: 5%;">WEB-РАЗРАБОТЧИК / HTML-ВЕРСТАЛЬЩИК / JAVASCRIPT</p>
 			</div>
 		</div>
-		<div class="midBlock">
-			<p class="paragraph_midBlock">Мои проекты:</p>
+		<main>
+			<div class="aboutMe">
+				<h2 class="headline2">Обо мне</h3>
+					<hr>
+					<div class="blocksAboutMe">
+						<div class="blockAboutMe">
+							<h3>Немного о себе</h3>
+							<img src="img/pasport.png" class="sizeIcon" alt="img">
+							<p> Здравствуйте,меня зовут Вирт Роман.
+								Я занимаюсь web-разработкой с нуля,под ключ.
+								Выполняю верстку и программирование сайтов,а так же доработку,добавляя полный функционал на сайт!Верстаю адаптивную верстку с помощью медиа запросов,
+							таким образом сайт получается красивым на любом устройстве,будь то комьютер,ноутбук или телефон!</p>
+						</div>
+						<div class="blockAboutMe">
+							<h3>Мои знания и умения</h3>
+							<img src="img/stick.png" alt="img" class="sizeIcon">
+							<p>
+								Знаю язык программирования JavaScript. Языки разметки: HTML(5), таблицы стилей CSS(3).
+								Умею верстать адаптивные сайты под планшеты и мобильные устройства.
+							</p>
+						</div>
+						<div class="blockAboutMe">
+							<h3>Образование</h3>
+							<img src="img/book.png" alt="img" class="sizeIcon">
+							<p>
+								Учусь в ШКМ(Школа Компьютерного Мастерства), также курсы в интернете, видеокурсы, форумы, статьи.
+							</p>
+						</div>
+					</div>	
+				</div>
+				<div class="professionalSkills">
+					<h2>Мои навыки</h2>
+				</div>
+			</main>
 		</div>
-		<div class="bottomBlock">
-			<a class="button" href="project_social_roma/rules.html">ЗОЖ на карантине</a>
-		</div>
-	</div>
-</body>
-</html>
+	</body>
+	</html>
