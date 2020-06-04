@@ -145,7 +145,15 @@ hr{
 	align-items: center;
 	justify-content: center;
 	margin: 1%;
-	color: white
+	color: white;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 /*TEXT*/
 .headline1{
@@ -168,6 +176,9 @@ hr{
 .sizeImg{
 	width: 500px;
 	height: 500px;
+}
+.logo{
+	width: 30%;
 }
 /*ФОРМА*/
 html {
