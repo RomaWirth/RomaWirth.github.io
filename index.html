@@ -4,22 +4,140 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="project_social_roma/css/animate.css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="project_social_roma/js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </head>
 <body>
 	<div class="container">
-		<div class="topBlock">
-			<img class="img_topBlock" src="avatar.PNG" alt="img">
-			<div class="headlines">
-				<h1>Начинающий веб-разработчик</h1>
-				<h2>Вирт Роман</h2>
+		<div class="blocksTop wow bounceInDown">
+			<header class="header">
+				<h1 class="headline1">САЙТ-ПОРТФОЛИО</h1>
+			</header>
+			<div class="name">
+				<h2 style="margin-bottom: 5%; color: white;">ВИРТ РОМАН</h2>
+				<p style="margin-bottom: 5%; color: white;">WEB-РАЗРАБОТЧИК / HTML-ВЕРСТАЛЬЩИК / JAVASCRIPT</p>
+				<br><br><br><br><br><br><br><br><br><br>
 			</div>
 		</div>
-		<div class="midBlock">
-			<p class="paragraph_midBlock">Мои проекты:</p>
+		<main>
+			<div class="aboutMe">
+				<h2 class="headline2 wow bounceInDown">Обо мне</h3>
+					<hr class="wow bounceInDown">
+					<div class="blocksAboutMe">
+						<div class="blockAboutMe wow fadeInLeft">
+							<h3>Немного о себе</h3>
+							<img src="img/pasport.png" class="sizeIcon" alt="img">
+							<p> Здравствуйте,меня зовут Вирт Роман.
+								Я занимаюсь web-разработкой с нуля,под ключ.
+								Выполняю верстку и программирование сайтов,а так же доработку,добавляя полный функционал на сайт!Верстаю адаптивную верстку с помощью медиа запросов,
+							таким образом сайт получается красивым на любом устройстве,будь то комьютер,ноутбук или телефон!</p>
+						</div>
+						<div class="blockAboutMe wow fadeInUpBig">
+							<h3>Мои знания и умения</h3>
+							<img src="img/stick.png" alt="img" class="sizeIcon">
+							<p>
+								Знаю язык программирования JavaScript. Языки разметки: HTML(5), таблицы стилей CSS(3).
+								Умею верстать адаптивные сайты под планшеты и мобильные устройства.
+							</p>
+						</div>
+						<div class="blockAboutMe wow fadeInRight">
+							<h3>Образование</h3>
+							<img src="img/book.png" alt="img" class="sizeIcon">
+							<p>
+								Учусь в ШКМ(Школа Компьютерного Мастерства), также курсы в интернете, видеокурсы, форумы, статьи.
+							</p>
+						</div>
+					</div>	
+				</div>
+				<div class="professionalSkills">
+					<h2 class="wow fadeInDown">Мои знания</h2>
+					<hr class="wow fadeInDown">
+					<div class="rowCircle wow bounceInLeft">
+						<div class="circle">
+							<p class="textCircle">HTML <br> 75%</p>
+						</div>
+						<div class="circle circleCSS wow bounceInUp">
+							<p class="textCircle">CSS <br> 50%</p>
+						</div>
+						<div class="circle circleJS bounceInRight">
+							<p class="textCircle">JS <br>25%</p>
+						</div>
+					</div>
+				</div>
+				<div class="myWorks">
+					<h2 class="wow bounceInDown">Мои работы</h2>
+					<hr class="wow bounceInDown">
+					<div class="wrapper">
+						<div class="card wow bounceInLeft">
+							<div class="front">
+								<img src="https://www.imgonline.com.ua/examples/site-screenshot-3.jpg" style="width: 100%; height: 100%;" alt="">
+							</div>
+							<div class="back">
+								<a href="" class="link">Сайт про операционную систему</a>
+							</div>
+						</div>
+						<div class="card wow bounceInDown">
+							<div class="front">
+								<img src="https://i-won.ru/wp-content/uploads/2015/08/screen-site-music-fm-ru.jpg" style="width: 100%; height: 100%;" alt="">
+							</div>
+							<div class="back">
+								<a href="" class="link">Сайт с музыкой</a>
+							</div>
+						</div>
+						<div class="card wow bounceInRight">
+							<div class="front">
+								<img src="https://www.imgonline.com.ua/examples/site-screenshot-2.jpg" style="width: 100%; height: 100%;" alt="">
+							</div>
+							<div class="back">
+								<a href="" class="link">Новостной сайт</a>
+							</div>
+						</div>
+						<div class="card wow bounceInLeft">
+							<div class="front">
+								<img src="https://new-img.movavi.com/pages/0012/45/0267b7fc5cb4d2eed7f2710a9dd769f4a5104fda.jpeg" style="width: 100%; height: 100%;" alt="">
+							</div>
+							<div class="back">
+								<a href="" class="link">Сайт для редактирования фотографий</a>
+							</div>
+						</div>
+						<div class="card wow bounceInDown">
+							<div class="front">
+								<img src="https://help.megagroup.ru/thumb/2/vlguL57A7-yzBf42_hUTIw/580r450/d/skrin-2.png" style="width: 100%; height: 100%;" alt="">
+							</div>
+							<div class="back">
+								<a href="" class="link">Интернет-магазин</a>
+							</div>
+						</div>
+						<div class="card wow bounceInRight">
+							<div class="front">
+								<img src="img/screenshot.PNG" style="width: 100%; height: 100%;" alt="">
+							</div>
+							<div class="back">
+								<a class="link" href="project_social_roma/rules.html">Проект: "ЗОЖ на карантине"</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact wow fadeInDown">
+					<h2>НАПИШИТЕ МНЕ</h3>
+					<hr>
+					<section id="contact-form">
+					  <form id="contact" name="contact" accept-charset="utf-8">
+					    <label><span>Имя</span><input name="name" type="text" placeholder="Имя"/></label>
+					    <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
+					    <label><span>Сообщение</span><textarea name="message" placeholder="Сообщение"></textarea></label>
+					    <input name="submit" type="submit" value="Send"/>
+					  </form>
+					</section>
+				</div>
+			</main>
+			<footer class="footer wow fadeInUp">
+				<img src="project_social_roma/img/logo.png" class="logo" alt="img">
+			</footer>
 		</div>
-		<div class="bottomBlock">
-			<a class="button" href="project_social_roma/rules.html">ЗОЖ на карантине</a>
-		</div>
-	</div>
-</body>
-</html>
+	</body>
+	</html>
