@@ -17,11 +17,12 @@
 	<div class="container">
 		<div class="blocksTop">
 			<header class="header">
-				<h1>САЙТ-ПОРТФОЛИО</h1>
+				<h1 class="headline1">САЙТ-ПОРТФОЛИО</h1>
 			</header>
 			<div class="name">
-				<h2 style="margin-bottom: 5%;">ВИРТ РОМАН</h2>
-				<p style="margin-bottom: 5%;">WEB-РАЗРАБОТЧИК / HTML-ВЕРСТАЛЬЩИК / JAVASCRIPT</p>
+				<h2 style="margin-bottom: 5%; color: white;">ВИРТ РОМАН</h2>
+				<p style="margin-bottom: 5%; color: white;">WEB-РАЗРАБОТЧИК / HTML-ВЕРСТАЛЬЩИК / JAVASCRIPT</p>
+				<br><br><br><br><br><br><br><br><br><br>
 			</div>
 		</div>
 		<main>
@@ -63,7 +64,7 @@
 					<h2>Мои работы</h2>
 					<hr>
 					<div class="wrapper">
-						<div class="card wow slideInLeft animated" data-wow-duration="2s" data-wow-offset="10" style="visibility: visible; animation-duration: 2s;">
+						<div class="card wow slideInLeft" data-wow-duration="2s" data-wow-offset="10">
 							<div class="front">
 								<img src="https://www.imgonline.com.ua/examples/site-screenshot-3.jpg" style="width: 100%; height: 100%;" alt="">
 							</div>
@@ -87,7 +88,7 @@
 								<a href="" class="link">Новостной сайт</a>
 							</div>
 						</div>
-						<div class="card wow slideInLeft animated" data-wow-duration="3s" data-wow-offset="10" style="visibility: visible; animation-duration: 2s;">
+						<div class="card wow lightSpeedInLeft animated" data-wow-duration="3s" data-wow-offset="10" style="visibility: visible; animation-duration: 2s;">
 							<div class="front">
 								<img src="https://new-img.movavi.com/pages/0012/45/0267b7fc5cb4d2eed7f2710a9dd769f4a5104fda.jpeg" style="width: 100%; height: 100%;" alt="">
 							</div>
@@ -114,9 +115,16 @@
 					</div>
 				</div>
 				<div class="contact">
-					<h3>НАПИШИТЕ МНЕ</h3>
+					<h2>НАПИШИТЕ МНЕ</h3>
 					<hr>
-					
+					<section id="contact-form">
+					  <form id="contact" name="contact" accept-charset="utf-8">
+					    <label><span>Имя</span><input name="name" type="text" placeholder="Имя"/></label>
+					    <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
+					    <label><span>Сообщение</span><textarea name="message" placeholder="Сообщение"></textarea></label>
+					    <input name="submit" type="submit" value="Send"/>
+					  </form>
+					</section>
 				</div>
 			</main>
 		</div>

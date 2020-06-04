@@ -11,8 +11,8 @@
 	width: 100%;
 	height: 2000px;
 }
-.blocksTop{
-		background: url(http://lenagold.ru/fon/der/dos/doska35.jpg);
+body{
+		background: url(http://www.lenagold.ru/fon/der/dos/doska138.jpg);
 }
 .header{
 	padding: 5%;
@@ -29,6 +29,7 @@
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
+	padding: 2%;
 }
 .blocksAboutMe{
 	display: flex;
@@ -66,6 +67,8 @@ hr{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 1%;
+	margin-top: 1%;
 }
 .wrapper {
   width: 70%;
@@ -79,7 +82,6 @@ hr{
   margin-bottom: 1%;
   height: 200px;
   perspective: 1000px;
-  border: 1px solid #fff;
   float: left;
 }
 .line2{
@@ -103,7 +105,7 @@ hr{
   align-items: center;
   transition: 1s;
   backface-visibility: hidden;
-  background-color: #4169E1;
+  background-color: lightgrey;
   text-align: center;
  }
 .front img {
@@ -141,16 +143,19 @@ hr{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	margin: 1%;
+	color: white
 }
 /*TEXT*/
-.headline2{
-	text-align: center;
-	margin-top: 5%;
-	font-size: 30px;
+.headline1{
+	color: white;
 }
 .link{
-	width: 30%;
-	background: #87CEFA;
+	width: 40%;
+	background: white;
+	font-weight: bold;
+	color: black;
 	text-decoration: none;
 }
 /*IMG*/
@@ -165,3 +170,103 @@ hr{
 	height: 500px;
 }
 /*ФОРМА*/
+html {
+  font: 300 100%/1.5 Ubuntu, sans-serif;
+  color: #333;
+  overflow-x: hidden;
+}
+h2 {
+  margin: 0;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+#contact-form {
+  width: 70%;
+  margin-left: 10%;
+}
+#contact, label, input[name="submit"] {
+  position: relative;
+}
+label > span, input, textarea, button {
+  box-sizing: border-box;
+}
+label {
+  display: block;
+}
+label > span {
+  display: none;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font: 300 100%/1.2 Ubuntu, sans-serif;
+}
+input[type="text"], input[type="email"], textarea {
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
+}
+input.invalid, textarea.invalid {
+  border-color: #d5144d;
+}
+textarea {
+  height: 6em;
+}
+input[type="submit"], button {
+  background: #a7cd80;
+  color: #333;
+}
+input[type="submit"]:hover, button:hover {
+  background: #91b36f;
+}
+@media screen and (min-width: 30em) {
+  #contact-form h2 {
+    margin-left: 26.3736%;
+    font-size: 2em;
+    line-height: 1.5;
+  }
+  label > span {
+    vertical-align: top;
+    display: inline-block;
+    width: 26.3736%;
+    padding: 0.5em;
+    border: 1px solid transparent;
+    text-align: right;
+  }
+  input, textarea, button {
+    width: 73.6263%;
+    line-height: 1.5;
+  }
+  textarea {
+    height: 10em;
+  }
+  input[type="submit"], button {
+    margin-left: 26.3736%;
+  }
+}
+@media screen and (min-width: 48em) {
+  #contact-form {
+    text-align: justify;
+    line-height: 0;
+  }
+  #contact-form:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+  #contact-form h2 {
+    margin-left: 17.2661%;
+  }
+  #contact-form form, #contact-form aside {
+    vertical-align: top;
+    display: inline-block;
+    width: 65.4676%;
+    text-align: left;
+    line-height: 1.5;
+  }
+  #contact-form aside {
+    width: 30.9353%;
+  }
+}
